@@ -1,0 +1,33 @@
+:root {
+  --clr-primary-700: hsl(218, 44%, 22%);
+  --clr-primary-500: hsl(220, 15%, 55%);
+  --clr-primary-400: hsl(212, 45%, 89%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --clr-boxshadow: rgba(123, 135, 157, .4);
+
+  --fw-bold: 700;
+  --fw-regular: 400;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
