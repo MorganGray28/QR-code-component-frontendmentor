@@ -10,14 +10,11 @@
   --fw-regular: 400;
 }
 
-html {
-  background-color: var(--clr-primary-400);
-  min-height: 100vh;
-}
-
 body {
   font-size: 15px;
   font-family: 'Outfit', sans-serif;
+  background-color: var(--clr-primary-400);
+  min-height: 100vh;
 }
 
 *,
